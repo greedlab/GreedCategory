@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ./
 
 SPEC CHECKSUMS:
-  GreedCategory: 1cbd6718fd913be9181da08554953f0037101ce5
+  GreedCategory: e37bb458157e28acb56832d1beb1293ab7d00b42
 
 COCOAPODS: 0.39.0

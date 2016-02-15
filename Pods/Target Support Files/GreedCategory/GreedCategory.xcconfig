@@ -1,5 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/GreedCategory" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GreedCategory"
-OTHER_LDFLAGS = -framework "Foundation,UIKIT,CoreGraphics,CoreLocation"
+OTHER_LDFLAGS = -framework "CoreGraphics" -framework "CoreLocation" -framework "Foundation" -framework "UIKIT"
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

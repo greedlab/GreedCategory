@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0281230028D894ADA23F26CE7D6F2A34 /* NSString+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A5F6D39CBA95AEBB278D16D6231BA /* NSString+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03CD9DDCFCC00A7E9A07E865FC67EC73 /* Foundation,UIKIT,CoreGraphics,CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F295A0D13CD932477BDD9B0B86FC5D2D /* Foundation,UIKIT,CoreGraphics,CoreLocation.framework */; };
-		07BF95DA7BDC150839ECAA0FD23ED0D3 /* UITextView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 44770BB9B5C8D5B875E989A695FE1224 /* UITextView+Greed.m */; };
-		22976397DCB298B0378BE032CAE99242 /* NSObject+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = FC95BE0592F39197623B230772928454 /* NSObject+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2873766C6F6CE580EB54EFF4B0FA446A /* NSString+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F4CB193A893662BBE09200FFE8208B /* NSString+Greed.m */; };
-		2DAA50DBB7D227C9404863630F522021 /* UIView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 903103FA8144C9ABEB85FDC839898EB6 /* UIView+Greed.m */; };
-		3279B4A10A808E2CAB413027611D31DB /* NSDate+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F314AE336BE6F1935157DF53C4560 /* NSDate+Greed.m */; };
-		38B58F10F9018177AE6B72D104B789FB /* NSObject+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFCF7E1DA32388C22516BD4F105D85B /* NSObject+Greed.m */; };
-		3F11B6B4EEC80C7F2004A98FF207C5E5 /* UIImage+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D04B2FE58F9E90AA55CF9203B55F7A /* UIImage+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F41F7D7C250F442BF18B434097BC1D9 /* UILabel+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 0301A766F3EA55DD61DA5BD416DD42DF /* UILabel+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48E4A9283A8C120050DA0DC163705B9C /* UITextView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = AE888102823360EB3CCCB0141E0D3179 /* UITextView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ADE7EC72C9F97E887C3FB9AE6C7F890 /* NSObject+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F1E5F0BB45AA296968C3D24900BAC3 /* NSObject+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CFAC58EE3AF83BB1ACEA9C4B791640F /* UIView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26EF0C2D58C7A091FAF623A6D49B9D /* UIView+Greed.m */; };
+		26E407F50226BADAFDE061BCE2CC2EF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */; };
+		27379BBFA8919587A0697C56CC7E9E9B /* UIWindow+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD430663F3BDD7DFCC58DA80651730 /* UIWindow+Greed.m */; };
+		2836C72D9B84D60E224F14B623D472C0 /* UILabel+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 360BED1B49210640A982DA34EB5B9D48 /* UILabel+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A8146ACF6D821AF3AC40CB6B3EB0CF9 /* NSDate+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F68786D2CCAE32ED6FA930085D019AE /* NSDate+Greed.m */; };
+		2E33911BB35A49D23E371CF3296E4501 /* UIImage+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = E951A4E1E5718643026274BBC3DBD25E /* UIImage+Greed.m */; };
+		32E7829673294E430FAD819E5C12489C /* CLLocation+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3158715F6375D4535379CF72DA7265 /* CLLocation+Greed.m */; };
+		375F7631D2F7D45514F50CC3329989CE /* UIKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */; };
+		427B908E127B1861876F9C8B667C979A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E79F93C97C8F4C64EB77BF36B3D294 /* CoreLocation.framework */; };
+		44D43060EAA63F3128B71FD1785C4216 /* UILabel+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 601E46DCE7EBDAC9DE8F62DD1CCBD798 /* UILabel+Greed.m */; };
+		49D7D1B08172CBE6B187D6E29A72A46C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2142C07550D77EA1907EF15FAC38E0 /* CoreGraphics.framework */; };
+		4B3E59CC4B90EBB4D6288CA3BA285EAA /* UITextView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = E43BFD7FCA0C2452182C0813A4F21C6B /* UITextView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		630871E24DB308B6F246FC6E2570C50F /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		83AE4F64375AA516986A60BD06EA7E30 /* GreedCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C78D1866C6CA4005546C5EED9989F0EB /* GreedCategory-dummy.m */; };
-		9865B692FE59282131EDBFBF68CA7B83 /* NSDate+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CCCA5EA8EF0FF232D4CEEADC74957D /* NSDate+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA1B54805B6EB76BE5713FF640383AAC /* UIWindow+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = F43007E22E2883F7D3DA8FB6411D7C95 /* UIWindow+Greed.m */; };
-		AE0BE805FB51E4026677FE9D41D7E318 /* CLLocation+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 163789EE6C01ECEC34649941A230AFBC /* CLLocation+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFF818F9C6D239DA6C1DEA1F7CFC1E50 /* UIWindow+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = B089AED056E4105C548DB4C9B515A77C /* UIWindow+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4F604BC96BC4125A950177875330DAE /* UIView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA113221BC615BB1F9471EFA139F259 /* UIView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF0259785A163EE43E8D424E1D1DCA22 /* CLLocation+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC8CC92A0C3D0EC3516314A1723205 /* CLLocation+Greed.m */; };
-		DE4E1031131A4777CF6572DEB400581B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DB7D022F7A99FE100F9DC7AF137275 /* Foundation.framework */; };
-		EB1225029714C34C5780A400EE45C0A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DB7D022F7A99FE100F9DC7AF137275 /* Foundation.framework */; };
-		EC8E7117BCF06327237CBAE033ADFF86 /* UILabel+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 2375A8CFA1AA95581F5B86D4C1F9C8BC /* UILabel+Greed.m */; };
-		F5762FFEB3964291EEC08476F7C7B7C6 /* UIImage+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = E5684492281FFA5CE5538B7B681C46D7 /* UIImage+Greed.m */; };
+		6A9943343419D30DDF4C2ED8126F3934 /* NSObject+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 7128E456B0D5F831BD187D83AF15F379 /* NSObject+Greed.m */; };
+		6E53DD8FE77C0AA8DB2492F4712D6791 /* NSString+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8933AD225F85C7B37966E981B8F804A7 /* NSString+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A746DFD9F283DB872B5E40568BBA825 /* UIView+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 010AD3A1A46BFE044AD0EED77FC47CC1 /* UIView+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2ADB6A076B3024CA242E5913A83498 /* UITextView+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = DD72A3B548DFAE578926FEF840B2B005 /* UITextView+Greed.m */; };
+		948B7CE27C77EE70A824B3DD7D9AE734 /* NSDate+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F88406580AE78258C4EC6B42C99367 /* NSDate+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E82E64E08C5D257300A70B91DA3D7F8 /* UIWindow+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = 98BD98EEBA9FE26F9FA3AC805362CCE1 /* UIWindow+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C397E9C629990278B2BA3F707C9F21B9 /* UIImage+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = C5001854B7C0B18AD10F4CF5DF8B4E42 /* UIImage+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4E1031131A4777CF6572DEB400581B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */; };
+		F483404E82FDBE33211A4732AD23A191 /* GreedCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD10EFEAB89FDB453EE4BAF5C00101A /* GreedCategory-dummy.m */; };
+		F497065B80B32D7579954BF90F04701B /* CLLocation+Greed.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E9074635132F5ABAC9842D51681519 /* CLLocation+Greed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC3EAD9C93714C2C710DB82712D15135 /* NSString+Greed.m in Sources */ = {isa = PBXBuildFile; fileRef = 315AA47CD31022B6B3B2608FC753B829 /* NSString+Greed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,45 +39,47 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 683524F99DCD44F1C9D36685EDFD538C;
+			remoteGlobalIDString = CC9EB3FC69F23C207333CF42F77AF715;
 			remoteInfo = GreedCategory;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0301A766F3EA55DD61DA5BD416DD42DF /* UILabel+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Greed.h"; sourceTree = "<group>"; };
+		010AD3A1A46BFE044AD0EED77FC47CC1 /* UIView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Greed.h"; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		163789EE6C01ECEC34649941A230AFBC /* CLLocation+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Greed.h"; sourceTree = "<group>"; };
-		2375A8CFA1AA95581F5B86D4C1F9C8BC /* UILabel+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Greed.m"; sourceTree = "<group>"; };
+		1DD10EFEAB89FDB453EE4BAF5C00101A /* GreedCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedCategory-dummy.m"; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		2ADC8CC92A0C3D0EC3516314A1723205 /* CLLocation+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Greed.m"; sourceTree = "<group>"; };
-		361A5F6D39CBA95AEBB278D16D6231BA /* NSString+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Greed.h"; sourceTree = "<group>"; };
+		315AA47CD31022B6B3B2608FC753B829 /* NSString+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Greed.m"; sourceTree = "<group>"; };
+		360BED1B49210640A982DA34EB5B9D48 /* UILabel+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Greed.h"; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		44770BB9B5C8D5B875E989A695FE1224 /* UITextView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Greed.m"; sourceTree = "<group>"; };
-		49F4CB193A893662BBE09200FFE8208B /* NSString+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Greed.m"; sourceTree = "<group>"; };
+		3D26EF0C2D58C7A091FAF623A6D49B9D /* UIView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Greed.m"; sourceTree = "<group>"; };
+		4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKIT.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKIT.framework; sourceTree = DEVELOPER_DIR; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		53CCCA5EA8EF0FF232D4CEEADC74957D /* NSDate+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+Greed.h"; sourceTree = "<group>"; };
+		601E46DCE7EBDAC9DE8F62DD1CCBD798 /* UILabel+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Greed.m"; sourceTree = "<group>"; };
+		64F1E5F0BB45AA296968C3D24900BAC3 /* NSObject+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Greed.h"; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		69F88406580AE78258C4EC6B42C99367 /* NSDate+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+Greed.h"; sourceTree = "<group>"; };
 		6D5042364F94A4E44A4D8238FAF01314 /* libGreedCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGreedCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DFCF7E1DA32388C22516BD4F105D85B /* NSObject+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Greed.m"; sourceTree = "<group>"; };
-		839F314AE336BE6F1935157DF53C4560 /* NSDate+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Greed.m"; sourceTree = "<group>"; };
-		8EA1337EABC2A6E08A3F8541934FD324 /* GreedCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedCategory-prefix.pch"; sourceTree = "<group>"; };
-		903103FA8144C9ABEB85FDC839898EB6 /* UIView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Greed.m"; sourceTree = "<group>"; };
-		93DB7D022F7A99FE100F9DC7AF137275 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F68786D2CCAE32ED6FA930085D019AE /* NSDate+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Greed.m"; sourceTree = "<group>"; };
+		7128E456B0D5F831BD187D83AF15F379 /* NSObject+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Greed.m"; sourceTree = "<group>"; };
+		80E79F93C97C8F4C64EB77BF36B3D294 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		8933AD225F85C7B37966E981B8F804A7 /* NSString+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Greed.h"; sourceTree = "<group>"; };
+		98BD98EEBA9FE26F9FA3AC805362CCE1 /* UIWindow+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Greed.h"; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A5D04B2FE58F9E90AA55CF9203B55F7A /* UIImage+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Greed.h"; sourceTree = "<group>"; };
-		AE888102823360EB3CCCB0141E0D3179 /* UITextView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Greed.h"; sourceTree = "<group>"; };
-		B089AED056E4105C548DB4C9B515A77C /* UIWindow+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Greed.h"; sourceTree = "<group>"; };
-		B5CA1A7842871E8397FFCE6C44DB91CB /* GreedCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedCategory.xcconfig; sourceTree = "<group>"; };
+		A8E9074635132F5ABAC9842D51681519 /* CLLocation+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Greed.h"; sourceTree = "<group>"; };
+		AA3158715F6375D4535379CF72DA7265 /* CLLocation+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Greed.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C78D1866C6CA4005546C5EED9989F0EB /* GreedCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedCategory-dummy.m"; sourceTree = "<group>"; };
+		BB2142C07550D77EA1907EF15FAC38E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BF1928FF892B9450FB2C27E12FA2F56E /* GreedCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedCategory.xcconfig; sourceTree = "<group>"; };
+		C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C4FD430663F3BDD7DFCC58DA80651730 /* UIWindow+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Greed.m"; sourceTree = "<group>"; };
+		C5001854B7C0B18AD10F4CF5DF8B4E42 /* UIImage+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Greed.h"; sourceTree = "<group>"; };
+		D77C8A61C9B4C8D61410FC53C3379B20 /* GreedCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedCategory-prefix.pch"; sourceTree = "<group>"; };
 		DC6E75E163A919711FBDE194AB154CE8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5684492281FFA5CE5538B7B681C46D7 /* UIImage+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Greed.m"; sourceTree = "<group>"; };
-		F295A0D13CD932477BDD9B0B86FC5D2D /* Foundation,UIKIT,CoreGraphics,CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation,UIKIT,CoreGraphics,CoreLocation.framework"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation,UIKIT,CoreGraphics,CoreLocation.framework"; sourceTree = DEVELOPER_DIR; };
-		F43007E22E2883F7D3DA8FB6411D7C95 /* UIWindow+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Greed.m"; sourceTree = "<group>"; };
-		FC95BE0592F39197623B230772928454 /* NSObject+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Greed.h"; sourceTree = "<group>"; };
-		FFA113221BC615BB1F9471EFA139F259 /* UIView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Greed.h"; sourceTree = "<group>"; };
+		DD72A3B548DFAE578926FEF840B2B005 /* UITextView+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Greed.m"; sourceTree = "<group>"; };
+		E43BFD7FCA0C2452182C0813A4F21C6B /* UITextView+Greed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Greed.h"; sourceTree = "<group>"; };
+		E951A4E1E5718643026274BBC3DBD25E /* UIImage+Greed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Greed.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +91,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D4E51025294217C44DBD1D2FA7C26D8 /* Frameworks */ = {
+		C401911107A3A68B26F22698620E7E33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03CD9DDCFCC00A7E9A07E865FC67EC73 /* Foundation,UIKIT,CoreGraphics,CoreLocation.framework in Frameworks */,
-				EB1225029714C34C5780A400EE45C0A5 /* Foundation.framework in Frameworks */,
+				49D7D1B08172CBE6B187D6E29A72A46C /* CoreGraphics.framework in Frameworks */,
+				427B908E127B1861876F9C8B667C979A /* CoreLocation.framework in Frameworks */,
+				26E407F50226BADAFDE061BCE2CC2EF6 /* Foundation.framework in Frameworks */,
+				375F7631D2F7D45514F50CC3329989CE /* UIKIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,26 +116,42 @@
 		0B9EA2F9C24B2481FAF38E55D61A4384 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B113DE81DF0E2ADD4EDB646D6C9E6C4 /* GreedCategory */,
+				C303E2BD015F3A1C712DE46590F3E64A /* GreedCategory */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		1104E7475841B2BB45E77DBEB4829533 /* iOS */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93DB7D022F7A99FE100F9DC7AF137275 /* Foundation.framework */,
-				F295A0D13CD932477BDD9B0B86FC5D2D /* Foundation,UIKIT,CoreGraphics,CoreLocation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1104E7475841B2BB45E77DBEB4829533 /* iOS */,
+				A3EAEE904F3CFB1E7A2BF6A3DA7659B0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33BE228CDB6718E58B5AEA0B9BD66028 /* GreedCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A8E9074635132F5ABAC9842D51681519 /* CLLocation+Greed.h */,
+				AA3158715F6375D4535379CF72DA7265 /* CLLocation+Greed.m */,
+				69F88406580AE78258C4EC6B42C99367 /* NSDate+Greed.h */,
+				6F68786D2CCAE32ED6FA930085D019AE /* NSDate+Greed.m */,
+				64F1E5F0BB45AA296968C3D24900BAC3 /* NSObject+Greed.h */,
+				7128E456B0D5F831BD187D83AF15F379 /* NSObject+Greed.m */,
+				8933AD225F85C7B37966E981B8F804A7 /* NSString+Greed.h */,
+				315AA47CD31022B6B3B2608FC753B829 /* NSString+Greed.m */,
+				C5001854B7C0B18AD10F4CF5DF8B4E42 /* UIImage+Greed.h */,
+				E951A4E1E5718643026274BBC3DBD25E /* UIImage+Greed.m */,
+				360BED1B49210640A982DA34EB5B9D48 /* UILabel+Greed.h */,
+				601E46DCE7EBDAC9DE8F62DD1CCBD798 /* UILabel+Greed.m */,
+				E43BFD7FCA0C2452182C0813A4F21C6B /* UITextView+Greed.h */,
+				DD72A3B548DFAE578926FEF840B2B005 /* UITextView+Greed.m */,
+				010AD3A1A46BFE044AD0EED77FC47CC1 /* UIView+Greed.h */,
+				3D26EF0C2D58C7A091FAF623A6D49B9D /* UIView+Greed.m */,
+				98BD98EEBA9FE26F9FA3AC805362CCE1 /* UIWindow+Greed.h */,
+				C4FD430663F3BDD7DFCC58DA80651730 /* UIWindow+Greed.m */,
+			);
+			path = GreedCategory;
 			sourceTree = "<group>";
 		};
 		692156AE8AE106859C97B5FE4CA9B850 /* Products */ = {
@@ -146,56 +168,32 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				0B9EA2F9C24B2481FAF38E55D61A4384 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				692156AE8AE106859C97B5FE4CA9B850 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		90C4CDD5788D56413B22355CBEAF4984 /* GreedCategory */ = {
+		92634D58B5578F9F684EFAEED1DA45E4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				163789EE6C01ECEC34649941A230AFBC /* CLLocation+Greed.h */,
-				2ADC8CC92A0C3D0EC3516314A1723205 /* CLLocation+Greed.m */,
-				53CCCA5EA8EF0FF232D4CEEADC74957D /* NSDate+Greed.h */,
-				839F314AE336BE6F1935157DF53C4560 /* NSDate+Greed.m */,
-				FC95BE0592F39197623B230772928454 /* NSObject+Greed.h */,
-				6DFCF7E1DA32388C22516BD4F105D85B /* NSObject+Greed.m */,
-				361A5F6D39CBA95AEBB278D16D6231BA /* NSString+Greed.h */,
-				49F4CB193A893662BBE09200FFE8208B /* NSString+Greed.m */,
-				A5D04B2FE58F9E90AA55CF9203B55F7A /* UIImage+Greed.h */,
-				E5684492281FFA5CE5538B7B681C46D7 /* UIImage+Greed.m */,
-				0301A766F3EA55DD61DA5BD416DD42DF /* UILabel+Greed.h */,
-				2375A8CFA1AA95581F5B86D4C1F9C8BC /* UILabel+Greed.m */,
-				AE888102823360EB3CCCB0141E0D3179 /* UITextView+Greed.h */,
-				44770BB9B5C8D5B875E989A695FE1224 /* UITextView+Greed.m */,
-				FFA113221BC615BB1F9471EFA139F259 /* UIView+Greed.h */,
-				903103FA8144C9ABEB85FDC839898EB6 /* UIView+Greed.m */,
-				B089AED056E4105C548DB4C9B515A77C /* UIWindow+Greed.h */,
-				F43007E22E2883F7D3DA8FB6411D7C95 /* UIWindow+Greed.m */,
-			);
-			path = GreedCategory;
-			sourceTree = "<group>";
-		};
-		9B113DE81DF0E2ADD4EDB646D6C9E6C4 /* GreedCategory */ = {
-			isa = PBXGroup;
-			children = (
-				90C4CDD5788D56413B22355CBEAF4984 /* GreedCategory */,
-				9F72DCAB1596CF839B4B61268A1392BA /* Support Files */,
-			);
-			name = GreedCategory;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		9F72DCAB1596CF839B4B61268A1392BA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B5CA1A7842871E8397FFCE6C44DB91CB /* GreedCategory.xcconfig */,
-				C78D1866C6CA4005546C5EED9989F0EB /* GreedCategory-dummy.m */,
-				8EA1337EABC2A6E08A3F8541934FD324 /* GreedCategory-prefix.pch */,
+				BF1928FF892B9450FB2C27E12FA2F56E /* GreedCategory.xcconfig */,
+				1DD10EFEAB89FDB453EE4BAF5C00101A /* GreedCategory-dummy.m */,
+				D77C8A61C9B4C8D61410FC53C3379B20 /* GreedCategory-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Pods/Target Support Files/GreedCategory";
+			sourceTree = "<group>";
+		};
+		A3EAEE904F3CFB1E7A2BF6A3DA7659B0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BB2142C07550D77EA1907EF15FAC38E0 /* CoreGraphics.framework */,
+				80E79F93C97C8F4C64EB77BF36B3D294 /* CoreLocation.framework */,
+				C12053D655DCB0048606D591763C7DD1 /* Foundation.framework */,
+				4C39782BB6E7D728951F67579DBFAC1B /* UIKIT.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -213,35 +211,45 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
+		C303E2BD015F3A1C712DE46590F3E64A /* GreedCategory */ = {
+			isa = PBXGroup;
+			children = (
+				33BE228CDB6718E58B5AEA0B9BD66028 /* GreedCategory */,
+				92634D58B5578F9F684EFAEED1DA45E4 /* Support Files */,
+			);
+			name = GreedCategory;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		952455C2927B89815A002E9897F8F155 /* Headers */ = {
+		9950ABCC210C6CC0D84C3CDAD63CEF94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0BE805FB51E4026677FE9D41D7E318 /* CLLocation+Greed.h in Headers */,
-				9865B692FE59282131EDBFBF68CA7B83 /* NSDate+Greed.h in Headers */,
-				22976397DCB298B0378BE032CAE99242 /* NSObject+Greed.h in Headers */,
-				0281230028D894ADA23F26CE7D6F2A34 /* NSString+Greed.h in Headers */,
-				3F11B6B4EEC80C7F2004A98FF207C5E5 /* UIImage+Greed.h in Headers */,
-				3F41F7D7C250F442BF18B434097BC1D9 /* UILabel+Greed.h in Headers */,
-				48E4A9283A8C120050DA0DC163705B9C /* UITextView+Greed.h in Headers */,
-				C4F604BC96BC4125A950177875330DAE /* UIView+Greed.h in Headers */,
-				BFF818F9C6D239DA6C1DEA1F7CFC1E50 /* UIWindow+Greed.h in Headers */,
+				F497065B80B32D7579954BF90F04701B /* CLLocation+Greed.h in Headers */,
+				948B7CE27C77EE70A824B3DD7D9AE734 /* NSDate+Greed.h in Headers */,
+				0ADE7EC72C9F97E887C3FB9AE6C7F890 /* NSObject+Greed.h in Headers */,
+				6E53DD8FE77C0AA8DB2492F4712D6791 /* NSString+Greed.h in Headers */,
+				C397E9C629990278B2BA3F707C9F21B9 /* UIImage+Greed.h in Headers */,
+				2836C72D9B84D60E224F14B623D472C0 /* UILabel+Greed.h in Headers */,
+				4B3E59CC4B90EBB4D6288CA3BA285EAA /* UITextView+Greed.h in Headers */,
+				7A746DFD9F283DB872B5E40568BBA825 /* UIView+Greed.h in Headers */,
+				9E82E64E08C5D257300A70B91DA3D7F8 /* UIWindow+Greed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		683524F99DCD44F1C9D36685EDFD538C /* GreedCategory */ = {
+		CC9EB3FC69F23C207333CF42F77AF715 /* GreedCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EE399398D3E0B45D6A1FD07377B2DE /* Build configuration list for PBXNativeTarget "GreedCategory" */;
+			buildConfigurationList = C737074FD9368FE6251D344C86C3BF8A /* Build configuration list for PBXNativeTarget "GreedCategory" */;
 			buildPhases = (
-				3FD1CDC4599FF262E4DFDA54E9482B00 /* Sources */,
-				6D4E51025294217C44DBD1D2FA7C26D8 /* Frameworks */,
-				952455C2927B89815A002E9897F8F155 /* Headers */,
+				9FDA659B55C4D4BFDE2BB8ACFE9AF27F /* Sources */,
+				C401911107A3A68B26F22698620E7E33 /* Frameworks */,
+				9950ABCC210C6CC0D84C3CDAD63CEF94 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -290,27 +298,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				683524F99DCD44F1C9D36685EDFD538C /* GreedCategory */,
+				CC9EB3FC69F23C207333CF42F77AF715 /* GreedCategory */,
 				D7B1834DCFA18A724968079D1E647EF6 /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FD1CDC4599FF262E4DFDA54E9482B00 /* Sources */ = {
+		9FDA659B55C4D4BFDE2BB8ACFE9AF27F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF0259785A163EE43E8D424E1D1DCA22 /* CLLocation+Greed.m in Sources */,
-				83AE4F64375AA516986A60BD06EA7E30 /* GreedCategory-dummy.m in Sources */,
-				3279B4A10A808E2CAB413027611D31DB /* NSDate+Greed.m in Sources */,
-				38B58F10F9018177AE6B72D104B789FB /* NSObject+Greed.m in Sources */,
-				2873766C6F6CE580EB54EFF4B0FA446A /* NSString+Greed.m in Sources */,
-				F5762FFEB3964291EEC08476F7C7B7C6 /* UIImage+Greed.m in Sources */,
-				EC8E7117BCF06327237CBAE033ADFF86 /* UILabel+Greed.m in Sources */,
-				07BF95DA7BDC150839ECAA0FD23ED0D3 /* UITextView+Greed.m in Sources */,
-				2DAA50DBB7D227C9404863630F522021 /* UIView+Greed.m in Sources */,
-				AA1B54805B6EB76BE5713FF640383AAC /* UIWindow+Greed.m in Sources */,
+				32E7829673294E430FAD819E5C12489C /* CLLocation+Greed.m in Sources */,
+				F483404E82FDBE33211A4732AD23A191 /* GreedCategory-dummy.m in Sources */,
+				2A8146ACF6D821AF3AC40CB6B3EB0CF9 /* NSDate+Greed.m in Sources */,
+				6A9943343419D30DDF4C2ED8126F3934 /* NSObject+Greed.m in Sources */,
+				FC3EAD9C93714C2C710DB82712D15135 /* NSString+Greed.m in Sources */,
+				2E33911BB35A49D23E371CF3296E4501 /* UIImage+Greed.m in Sources */,
+				44D43060EAA63F3128B71FD1785C4216 /* UILabel+Greed.m in Sources */,
+				7D2ADB6A076B3024CA242E5913A83498 /* UITextView+Greed.m in Sources */,
+				1CFAC58EE3AF83BB1ACEA9C4B791640F /* UIView+Greed.m in Sources */,
+				27379BBFA8919587A0697C56CC7E9E9B /* UIWindow+Greed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +336,7 @@
 		7A0206F07EE7A33A1159D2F27B565C5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GreedCategory;
-			target = 683524F99DCD44F1C9D36685EDFD538C /* GreedCategory */;
+			target = CC9EB3FC69F23C207333CF42F77AF715 /* GreedCategory */;
 			targetProxy = 42FDAD44E7FBFB436912815417B86F0A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,24 +398,6 @@
 			};
 			name = Debug;
 		};
-		92E523C14E731F92DF9E1C4BC23B8516 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5CA1A7842871E8397FFCE6C44DB91CB /* GreedCategory.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GreedCategory/GreedCategory-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -442,9 +432,9 @@
 			};
 			name = Release;
 		};
-		DA160E6110A4E38B5D7A45A31F58B985 /* Debug */ = {
+		C94CC8BB18F1F73CB594F0ED2CEDFA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5CA1A7842871E8397FFCE6C44DB91CB /* GreedCategory.xcconfig */;
+			baseConfigurationReference = BF1928FF892B9450FB2C27E12FA2F56E /* GreedCategory.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/GreedCategory/GreedCategory-prefix.pch";
@@ -477,6 +467,24 @@
 			};
 			name = Release;
 		};
+		EF449A349388A46D0625656B2A8F288C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1928FF892B9450FB2C27E12FA2F56E /* GreedCategory.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedCategory/GreedCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -489,11 +497,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EE399398D3E0B45D6A1FD07377B2DE /* Build configuration list for PBXNativeTarget "GreedCategory" */ = {
+		C737074FD9368FE6251D344C86C3BF8A /* Build configuration list for PBXNativeTarget "GreedCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA160E6110A4E38B5D7A45A31F58B985 /* Debug */,
-				92E523C14E731F92DF9E1C4BC23B8516 /* Release */,
+				C94CC8BB18F1F73CB594F0ED2CEDFA3B /* Debug */,
+				EF449A349388A46D0625656B2A8F288C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
