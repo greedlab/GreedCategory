@@ -1,0 +1,14 @@
+PODS:
+  - GreedCategory (0.0.1)
+
+DEPENDENCIES:
+  - GreedCategory (from `./`)
+
+EXTERNAL SOURCES:
+  GreedCategory:
+    :path: ./
+
+SPEC CHECKSUMS:
+  GreedCategory: 1cbd6718fd913be9181da08554953f0037101ce5
+
+COCOAPODS: 0.39.0
