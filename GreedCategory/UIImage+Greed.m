@@ -145,4 +145,69 @@
     }
 }
 
+#pragma mark - image length
+
+- (NSData *)gr_dataWithMaxLength:(NSUInteger)maxLength
+{
+    NSData *data = UIImageJPEGRepresentation(self,1);
+    NSUInteger length = data.length;
+    
+    if (length > maxLength) {   // 压缩图片大小
+        CGFloat rate = (CGFloat)maxLength / (CGFloat)length * 0.7;
+        while (length > maxLength && rate > 0) {
+            data = UIImageJPEGRepresentation(self,rate);
+            length = data.length;
+            rate -= 0.2;
+            NSLog(@"length:%ld",(long)length);
+        }
+    }
+    
+    if (length > maxLength) { // 压缩图片size
+        UIImage *image = [UIImage imageWithData:data];
+        CGFloat scale = (CGFloat)maxLength / (CGFloat)length * 0.7;
+        while (length > maxLength && scale) {
+            image = [image gr_reScaleToScale:scale];
+            data = UIImageJPEGRepresentation(image,0.7);
+            length = data.length;
+            scale = (CGFloat)maxLength / (CGFloat)length * 0.7;
+            NSLog(@"length:%ld",(long)length);
+        }
+    }
+    return data;
+}
+
+- (UIImage*)gr_imageWithMaxLength:(NSUInteger)maxLength
+{
+    NSData *data = UIImageJPEGRepresentation(self,1);
+    NSUInteger length = data.length;
+    
+    if (length > maxLength) {   // 压缩图片大小
+        CGFloat rate = (CGFloat)maxLength / (CGFloat)length * 0.7;
+        while (length > maxLength && rate > 0) {
+            data = UIImageJPEGRepresentation(self,rate);
+            length = data.length;
+            rate -= 0.2;
+            NSLog(@"length:%ld",(long)length);
+        }
+    } else {
+        return self;
+    }
+    
+    if (length > maxLength) { // 压缩图片size
+        UIImage *image = [UIImage imageWithData:data];
+        CGFloat scale = (CGFloat)maxLength / (CGFloat)length * 0.7;
+        while (length > maxLength && scale < 1) {
+            image = [image gr_reScaleToScale:scale];
+            data = UIImageJPEGRepresentation(image,1);
+            length = data.length;
+            scale = (CGFloat)maxLength / (CGFloat)length * 0.7;
+            NSLog(@"length:%ld",(long)length);
+        }
+        return image;
+    } else {
+        NSLog(@"length:%ld",(long)data.length);
+        return [UIImage imageWithData:data];
+    }
+}
+
 @end

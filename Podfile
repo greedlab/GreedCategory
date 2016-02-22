@@ -2,7 +2,7 @@
 workspace 'GreedCategory'
 
 # let ExampleUnitTests use pods
-link_with 'Example', 'ExampleUnitTests'
+link_with 'Example', 'ExampleTests', 'ExampleUITests'
 
 platform :ios, '6.0'
 

@@ -81,4 +81,24 @@
  */
 - (UIImage *)gr_reSizeToMaxHeight:(CGFloat)maxHeight;
 
+#pragma mark - image length
+
+/**
+ *  获取最大大小的data
+ *
+ *  @param maxLength 最大大小，单位:byte
+ *
+ *  @return data
+ */
+- (NSData*)gr_dataWithMaxLength:(NSUInteger)maxLength;
+
+/**
+ *  获取最大大小的uiimage
+ *
+ *  @param maxLength 最大大小，单位:byte
+ *
+ *  @return UIImage
+ */
+- (UIImage*)gr_imageWithMaxLength:(NSUInteger)maxLength;
+
 @end
