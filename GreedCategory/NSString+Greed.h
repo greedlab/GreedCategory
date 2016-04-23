@@ -42,5 +42,8 @@
  *  url encode
  */
 - (NSString*)gr_urlEncode;
-
+/**
+ *  13007124303 -> 130*****303
+ */
+- (NSString *)getPriatePhoneNumber;
 @end

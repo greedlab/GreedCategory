@@ -126,4 +126,17 @@
     return encodedString;
 }
 
+- (NSString *)getPriatePhoneNumber {
+        if (!self.length && self.length < 6) {
+            return nil;
+        }
+        NSRange range = NSMakeRange(3, self.length-6);
+        NSString *star = [[NSString alloc] init];
+        for (int i = 0; i < self.length - 6; i ++) {
+            star = [star stringByAppendingString:@"*"];
+        }
+        NSString *str = [self stringByReplacingCharactersInRange:range withString:star];
+        return str;
+}
+
 @end
