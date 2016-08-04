@@ -205,6 +205,47 @@
     return [self timeIntervalSince1970];
 }
 
+- (NSInteger)gr_intFormat {
+    NSInteger year = [self gr_year];
+    NSInteger month = [self gr_month];
+    NSInteger day = [self gr_day];
+    NSString *monthString;
+    NSString *dayString;
+    if (month < 10) {
+        monthString = [NSString stringWithFormat:@"0%@",@(month)];
+    } else {
+        monthString = [NSString stringWithFormat:@"%@",@(month)];
+    }
+    if (day < 10) {
+        dayString = [NSString stringWithFormat:@"0%@",@(day)];
+    } else {
+        dayString = [NSString stringWithFormat:@"%@",@(day)];
+    }
+    return [NSString stringWithFormat:@"%@%@%@",@(year),monthString,dayString].integerValue;
+}
+
++ (NSDate *)gr_dateFromIntFormat:(NSInteger)format {
+    NSString *stringFromat = [NSString stringWithFormat:@"%@",@(format)];
+    if (stringFromat.length != 8) {
+        return [NSDate date];
+    }
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSInteger unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit;
+    NSDate *date = [[NSDate alloc] init];
+    NSDateComponents *comps = [calendar components:unitFlags fromDate:date];
+    NSInteger year = [stringFromat substringWithRange:NSMakeRange(0, 4)].integerValue;
+    NSInteger month = [stringFromat substringWithRange:NSMakeRange(4, 2)].integerValue;
+    NSInteger day = [stringFromat substringWithRange:NSMakeRange(6, 2)].integerValue;
+    [comps setYear:year];
+    [comps setMonth:month];
+    [comps setDay:day];
+    [comps setHour:23];
+    [comps setMinute:59];
+    [comps setSecond:59];
+    NSDate *returnDate = [calendar dateFromComponents:comps];
+    return returnDate;
+}
+
 - (NSInteger)gr_numberOfDaysInMonth
 {
     NSCalendar *calendarmonth = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];

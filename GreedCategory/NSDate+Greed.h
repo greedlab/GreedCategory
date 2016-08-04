@@ -70,10 +70,15 @@
  *  获取时间缀 秒
  */
 - (long long)gr_second;
-
+/**
+ *  将NSDate => NSInteger
+ *  2015年4月1日 => 20150401
+ */
+- (NSInteger)gr_intFormat;
 /**
  *  获取指定月的天数
  */
++ (NSDate *)gr_dateFromIntFormat:(NSInteger)format;
 - (NSInteger)gr_numberOfDaysInMonth;
 
 /**
