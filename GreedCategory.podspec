@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GreedCategory"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "category for cocoa"
   s.description  = %{some category for cocoa }
   s.homepage     = "https://github.com/greedlab/GreedCategory"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/greedlab/GreedCategory.git", :tag => s.version }
   s.source_files  = "GreedCategory", "GreedCategory/*.{h,m}"
-  s.frameworks  = "Foundation","UIKIT","CoreGraphics","CoreLocation"
+  s.frameworks  = "Foundation","UIKit","CoreGraphics","CoreLocation"
   s.requires_arc = true
 
 end
