@@ -8,6 +8,9 @@
 
 #import "CLLocation+Greed.h"
 
+bool transform_sino_out_china(double lat, double lon);
+double transform_earth_from_mars_lat(double x, double y);
+double transform_earth_from_mars_lng(double x, double y);
 void transform_earth_from_mars(double lat, double lng, double* tarLat, double* tarLng);
 void transform_mars_from_baidu(double lat, double lng, double* tarLat, double* tarLng);
 void transform_baidu_from_mars(double lat, double lng, double* tarLat, double* tarLng);

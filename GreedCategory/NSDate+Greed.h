@@ -29,7 +29,7 @@
 /**
  *  2014-5-9 to NSDate
  *
- *  @param dateString 2014-5-9
+ *  @param string   4-5-9
  *
  *  @return NSDate
  */
