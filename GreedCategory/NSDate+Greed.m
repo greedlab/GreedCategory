@@ -478,6 +478,21 @@
     return YES;
 }
 
++ (BOOL)gr_isSameDay:(long long)aDay withDay:(long long)bDay {
+    NSDate *aDate = [NSDate gr_dateFromSecond:aDay];
+    NSDate *bDate = [NSDate gr_dateFromSecond:bDay];
+    if ([aDate gr_day] != [bDate gr_day]) {
+        return NO;
+    }
+    if ([aDate gr_month] != [bDate gr_month]) {
+        return NO;
+    }
+    if ([aDate gr_year] != [bDate gr_year]) {
+        return NO;
+    }
+    return YES;
+}
+
 - (NSInteger)gr_age
 {
     NSDate *date = [NSDate date];

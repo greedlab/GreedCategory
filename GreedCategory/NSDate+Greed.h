@@ -122,6 +122,12 @@
 
 - (BOOL)gr_isYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day;
 
+
+/**
+ 是否为同一天 年月日相同 return YES
+ */
++ (BOOL)gr_isSameDay:(long long)aDay withDay:(long long)bDay;
+
 /**
  *  是否为本月
  */
