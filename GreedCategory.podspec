@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GreedCategory"
-  s.version      = "0.0.5"
+  s.version      = "0.1.0"
   s.summary      = "category for cocoa"
   s.description  = %{some category for cocoa }
   s.homepage     = "https://github.com/greedlab/GreedCategory"

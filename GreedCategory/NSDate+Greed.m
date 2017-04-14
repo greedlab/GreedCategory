@@ -768,8 +768,7 @@
 
 - (NSString *)gr_formatDateStrTypeB {
     NSCalendar *calendar = [[NSCalendar alloc]initWithCalendarIdentifier:NSGregorianCalendar];
-    NSDateComponents *comps = [[NSDateComponents alloc]init];
-    comps = [calendar components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:self];
+    NSDateComponents *comps = [calendar components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:self];
     NSInteger month = [comps month];
     NSInteger day = [comps day];
     NSInteger year = [comps year];

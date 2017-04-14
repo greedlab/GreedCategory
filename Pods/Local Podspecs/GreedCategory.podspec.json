@@ -1,6 +1,6 @@
 {
   "name": "GreedCategory",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "summary": "category for cocoa",
   "description": "some category for cocoa",
   "homepage": "https://github.com/greedlab/GreedCategory",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/greedlab/GreedCategory.git",
-    "tag": "0.0.1"
+    "tag": "0.0.5"
   },
   "source_files": [
     "GreedCategory",
@@ -21,7 +21,7 @@
   ],
   "frameworks": [
     "Foundation",
-    "UIKIT",
+    "UIKit",
     "CoreGraphics",
     "CoreLocation"
   ],

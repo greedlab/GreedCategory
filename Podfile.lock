@@ -1,14 +1,16 @@
 PODS:
-  - GreedCategory (0.0.1)
+  - GreedCategory (0.0.5)
 
 DEPENDENCIES:
   - GreedCategory (from `./`)
 
 EXTERNAL SOURCES:
   GreedCategory:
-    :path: ./
+    :path: "./"
 
 SPEC CHECKSUMS:
-  GreedCategory: e37bb458157e28acb56832d1beb1293ab7d00b42
+  GreedCategory: a6f43d53035b373402ad040ef6889bb61fe8725e
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 12c8a6394fef9756dbba5fe2722e4fe2f30a73b9
+
+COCOAPODS: 1.2.0
